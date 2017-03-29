@@ -54,16 +54,16 @@
     <Compile Include="Forms\NewEntryForm.Designer.cs">
       <DependentUpon>NewEntryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ReportForm.cs">
+    <Compile Include="Forms\ReportForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReportForm.Designer.cs">
+    <Compile Include="Forms\ReportForm.Designer.cs">
       <DependentUpon>ReportForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ReportOptionsForm.cs">
+    <Compile Include="Forms\ReportOptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReportOptionsForm.Designer.cs">
+    <Compile Include="Forms\ReportOptionsForm.Designer.cs">
       <DependentUpon>ReportOptionsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Utilities\ApplicationDelegate.cs" />
@@ -110,10 +110,10 @@
     <EmbeddedResource Include="Forms\ViewDepartmentsForm.resx">
       <DependentUpon>ViewDepartmentsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReportForm.resx">
+    <EmbeddedResource Include="Forms\ReportForm.resx">
       <DependentUpon>ReportForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReportOptionsForm.resx">
+    <EmbeddedResource Include="Forms\ReportOptionsForm.resx">
       <DependentUpon>ReportOptionsForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
